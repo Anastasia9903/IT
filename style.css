@@ -994,7 +994,7 @@ button:focus-visible{
 }
 .filter-list-item {
   width: 100%;
-  margin: 0 0 18px 0;
+  margin: 13px 0 25px 0;
   padding: 11px;
   box-sizing: border-box;
   font-style: normal;
@@ -1012,18 +1012,19 @@ button:focus-visible{
   background-color: #EF5B70;
   position: absolute;
   bottom: -1px;
-  left: 0;
+  left: 1px;
 }
 .filter-list-item a {
   text-transform: uppercase;
   color: #EF5B70;
   text-decoration: none;
+  margin-left: 8px;
 }
 .filter-list-item:hover::before {
-  background-color: red;
+  background-color: rgba(239, 91, 112, 1);
 }
 .filter-list-item:hover a {
-  color: red;
+  color: rgba(239, 91, 112, 1);
 }
 .filter-list-item:active::before {
   background-color: #ccc;
